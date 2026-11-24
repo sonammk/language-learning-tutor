@@ -1,0 +1,140 @@
+
+.mistakes-page {
+    padding: 35px;
+    color: #f5f5f7;
+  }
+  
+  .mistakes-heading {
+    margin-bottom: 28px;
+  }
+  
+  .mistakes-label {
+    color: #a78bfa;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  
+  .mistakes-heading h1 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  
+  .mistakes-heading p {
+    color: #a1a1aa;
+  }
+  
+  .mistakes-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 28px;
+  }
+  
+  .mistakes-summary div {
+    background: #1b1b29;
+    border: 1px solid #303044;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .mistakes-summary strong {
+    font-size: 26px;
+    color: #c4b5fd;
+  }
+  
+  .mistakes-summary span {
+    color: #a1a1aa;
+    font-size: 13px;
+  }
+  
+  .mistakes-list {
+    display: grid;
+    gap: 18px;
+  }
+  
+  .mistake-card {
+    background: #1b1b29;
+    border: 1px solid #303044;
+    border-radius: 16px;
+    padding: 22px;
+  }
+  
+  .mistake-card-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    gap: 10px;
+  }
+  
+  .mistake-topic {
+    color: #c4b5fd;
+    font-size: 13px;
+  }
+  
+  .mistake-number {
+    color: #85859a;
+    font-size: 12px;
+  }
+  
+  .mistake-answer {
+    padding: 13px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .mistake-answer span {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .mistake-answer p {
+    margin: 7px 0 0;
+  }
+  
+  .wrong-answer {
+    background: #3a202b;
+  }
+  
+  .wrong-answer span {
+    color: #fda4af;
+  }
+  
+  .correct-answer {
+    background: #17352e;
+  }
+  
+  .correct-answer span {
+    color: #86efac;
+  }
+  
+  .mistake-explanation {
+    color: #b4b4c2;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  .review-button {
+    background: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 11px 17px;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  @media (max-width: 650px) {
+    .mistakes-page {
+      padding: 20px;
+    }
+  
+    .mistakes-summary {
+      grid-template-columns: 1fr;
+    }
+  }
+  

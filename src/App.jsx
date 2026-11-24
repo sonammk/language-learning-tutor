@@ -1,4 +1,7 @@
-
+import Grammar from "./Grammar";
+import Vocabulary from "./Vocabulary";
+import Quiz from "./Quiz";
+import Mistakes from "./Mistakes";
 import { useState } from "react";
 import "./App.css";
 
@@ -201,8 +204,18 @@ What would you like to learn today?`,
           </div>
         </header>
 
-        {/* AI TUTOR PAGE */}
-        {activePage === "AI Tutor" ? (
+        {/* VOCABULARY PAGE */}
+        {/* PRACTICE QUIZ PAGE */}
+        {activePage === "Practice Quiz" ? (
+          <Quiz />
+        ) : activePage === "My Mistakes" ? (
+          <Mistakes />
+        ) : activePage === "Vocabulary" ? (
+          <Vocabulary />
+        ) : activePage === "Grammar" ? (
+          <Grammar />
+        ) : activePage === "AI Tutor" ? (
+          /* AI TUTOR PAGE */
           <div className="tutor-page">
             {!profileReady ? (
               <div className="setup-card">

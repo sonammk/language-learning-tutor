@@ -1,0 +1,444 @@
+.vocabulary-page {
+    padding: 28px;
+    color: #302947;
+  }
+  
+  .vocabulary-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 28px;
+  }
+  
+  .vocabulary-eyebrow {
+    color: #8b70d6;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+  }
+  
+  .vocabulary-header h1 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  
+  .vocabulary-header p {
+    color: #89839b;
+    margin: 0;
+  }
+  
+  .vocabulary-progress-card {
+    min-width: 210px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #eeeaf6;
+    border-radius: 18px;
+  }
+  
+  .vocab-progress-icon {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .vocabulary-progress-card span {
+    font-size: 11px;
+    color: #89839b;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .vocabulary-progress-card h2 {
+    color: #795bc5;
+    margin: 8px 0;
+  }
+  
+  .vocab-progress-track {
+    height: 7px;
+    background: #eeeaf7;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .vocab-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #9171dc, #c4aaff);
+    border-radius: 20px;
+    transition: width 0.3s;
+  }
+  
+  .vocabulary-progress-card small {
+    color: #9690a7;
+  }
+  
+  /* DAILY WORD */
+  
+  .vocabulary-daily {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(115deg, #7960c9, #a38ae4);
+    border-radius: 22px;
+    padding: 28px;
+    color: white;
+    margin-bottom: 25px;
+  }
+  
+  .vocabulary-daily-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .vocabulary-daily-content > span {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color: #e9dfff;
+  }
+  
+  .vocabulary-daily h2 {
+    font-size: 32px;
+    margin: 12px 0 5px;
+  }
+  
+  .daily-pronunciation {
+    font-size: 13px;
+    color: #e8e0ff;
+  }
+  
+  .vocabulary-daily-content > p {
+    margin: 15px 0;
+  }
+  
+  .daily-example {
+    background: rgba(255, 255, 255, 0.14);
+    padding: 12px 15px;
+    border-radius: 12px;
+    font-size: 13px;
+  }
+  
+  .vocabulary-daily-decoration {
+    font-size: 100px;
+    opacity: 0.22;
+    padding-right: 30px;
+  }
+  
+  /* SEARCH */
+  
+  .vocabulary-search {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    border: 1px solid #eeeaf6;
+    padding: 13px 16px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .vocabulary-search > span {
+    font-size: 24px;
+    color: #8874c4;
+  }
+  
+  .vocabulary-search input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    color: #39314f;
+  }
+  
+  .vocabulary-search button {
+    border: none;
+    background: transparent;
+    color: #88819b;
+    cursor: pointer;
+  }
+  
+  /* FILTERS */
+  
+  .vocabulary-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  
+  .vocabulary-filter {
+    border: 1px solid #e9e4f4;
+    background: white;
+    color: #77718d;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .vocabulary-filter.active {
+    background: #8061cf;
+    color: white;
+    border-color: #8061cf;
+  }
+  
+  /* WORD CARDS */
+  
+  .vocabulary-section-heading {
+    margin-bottom: 18px;
+  }
+  
+  .vocabulary-section-heading h2 {
+    font-size: 21px;
+    margin: 0 0 5px;
+  }
+  
+  .vocabulary-section-heading p {
+    font-size: 13px;
+    color: #89839b;
+    margin: 0;
+  }
+  
+  .vocabulary-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+  
+  .vocabulary-card {
+    background: white;
+    border: 1px solid #eeeaf6;
+    border-radius: 20px;
+    padding: 22px;
+    transition: 0.2s;
+  }
+  
+  .vocabulary-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(91, 67, 148, 0.08);
+  }
+  
+  .vocabulary-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  
+  .vocabulary-level {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 11px;
+    border-radius: 20px;
+  }
+  
+  .vocabulary-level.beginner {
+    background: #e9f8ee;
+    color: #388253;
+  }
+  
+  .vocabulary-level.intermediate {
+    background: #fff3df;
+    color: #b57a28;
+  }
+  
+  .vocabulary-level.advanced {
+    background: #f1eaff;
+    color: #7955bd;
+  }
+  
+  .vocabulary-category {
+    color: #9690a7;
+    font-size: 11px;
+  }
+  
+  .vocabulary-card h3 {
+    font-size: 24px;
+    margin: 17px 0 5px;
+  }
+  
+  .vocabulary-pronunciation {
+    color: #928ba5;
+    font-size: 12px;
+  }
+  
+  .vocabulary-meaning {
+    color: #5f5875;
+    line-height: 1.7;
+    font-size: 14px;
+    margin: 16px 0;
+  }
+  
+  .vocabulary-example {
+    background: #f8f6fc;
+    border-radius: 12px;
+    padding: 13px;
+    margin-bottom: 17px;
+  }
+  
+  .vocabulary-example span {
+    color: #8870c7;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  .vocabulary-example p {
+    color: #625a79;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 7px 0 0;
+  }
+  
+  .vocabulary-card-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .vocabulary-detail-button,
+  .vocabulary-learn-button {
+    border: none;
+    border-radius: 10px;
+    padding: 11px 14px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .vocabulary-detail-button {
+    background: #f0eaff;
+    color: #7555c2;
+  }
+  
+  .vocabulary-learn-button {
+    background: #8061cf;
+    color: white;
+  }
+  
+  .vocabulary-learn-button.learned {
+    background: #eaf7ee;
+    color: #3e8959;
+  }
+  
+  .vocabulary-empty {
+    text-align: center;
+    padding: 45px 20px;
+    color: #89839b;
+  }
+  
+  .vocabulary-empty span {
+    font-size: 35px;
+  }
+  
+  .vocabulary-empty h3 {
+    color: #453b5f;
+  }
+  
+  /* DETAILS MODAL */
+  
+  .vocabulary-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(38, 27, 63, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .vocabulary-modal {
+    width: 100%;
+    max-width: 460px;
+    background: white;
+    padding: 30px;
+    border-radius: 22px;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(30, 20, 60, 0.2);
+  }
+  
+  .vocabulary-modal-close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    border: none;
+    background: #f2eff8;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    color: #72658f;
+  }
+  
+  .vocabulary-modal h2 {
+    font-size: 30px;
+    margin: 15px 0 5px;
+  }
+  
+  .vocabulary-modal h4 {
+    color: #7960c9;
+    margin: 24px 0 8px;
+  }
+  
+  .vocabulary-modal p {
+    color: #625a79;
+    line-height: 1.7;
+  }
+  
+  .vocabulary-modal-example {
+    background: #f8f6fc;
+    border-radius: 12px;
+    padding: 15px;
+    color: #625a79;
+    line-height: 1.6;
+  }
+  
+  .vocabulary-modal .vocabulary-learn-button {
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 850px) {
+    .vocabulary-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .vocabulary-progress-card {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .vocabulary-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .vocabulary-page {
+      padding: 16px;
+    }
+  
+    .vocabulary-daily {
+      padding: 20px;
+    }
+  
+    .vocabulary-daily-decoration {
+      font-size: 65px;
+      padding-right: 0;
+    }
+  
+    .vocabulary-card-actions {
+      flex-direction: column;
+    }
+  
+    .vocabulary-card-actions button {
+      width: 100%;
+    }
+  }

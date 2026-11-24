@@ -1,0 +1,450 @@
+/* ========== GRAMMAR PAGE ========== */
+
+.grammar-page {
+    padding: 28px;
+    color: #25213a;
+  }
+  
+  .grammar-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .grammar-eyebrow {
+    color: #8b70d6;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+  }
+  
+  .grammar-heading h1 {
+    font-size: 32px;
+    margin: 10px 0;
+    font-weight: 750;
+  }
+  
+  .grammar-heading p {
+    color: #858198;
+    margin: 0;
+  }
+  
+  .grammar-progress-card {
+    min-width: 200px;
+    background: #ffffff;
+    border: 1px solid #eeeaf7;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(83, 59, 130, 0.04);
+  }
+  
+  .grammar-progress-card > span {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #89839b;
+    font-weight: 700;
+  }
+  
+  .grammar-progress-card strong {
+    display: block;
+    font-size: 26px;
+    margin: 8px 0;
+    color: #7254c7;
+  }
+  
+  .grammar-progress-bar {
+    height: 7px;
+    background: #eeeaf7;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .grammar-progress-bar div {
+    height: 100%;
+    background: linear-gradient(90deg, #9475e5, #c1a8ff);
+    border-radius: inherit;
+    transition: width 0.3s;
+  }
+  
+  .grammar-progress-card small {
+    color: #9690a7;
+  }
+  
+  .grammar-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  
+  .grammar-filter {
+    border: 1px solid #e9e4f4;
+    background: white;
+    color: #77718d;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  
+  .grammar-filter:hover {
+    border-color: #b9a4ee;
+  }
+  
+  .grammar-filter.active {
+    background: #8061cf;
+    border-color: #8061cf;
+    color: white;
+  }
+  
+  .grammar-topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  
+  .grammar-topic-card {
+    background: #ffffff;
+    border: 1px solid #eeeaf6;
+    border-radius: 20px;
+    padding: 24px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .grammar-topic-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(91, 67, 148, 0.09);
+  }
+  
+  .grammar-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .grammar-level {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 11px;
+    border-radius: 20px;
+  }
+  
+  .grammar-level.beginner {
+    background: #e9f8ee;
+    color: #388253;
+  }
+  
+  .grammar-level.intermediate {
+    background: #fff3df;
+    color: #b57a28;
+  }
+  
+  .grammar-level.advanced {
+    background: #f1eaff;
+    color: #7955bd;
+  }
+  
+  .grammar-done {
+    color: #419463;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .grammar-topic-card h3 {
+    margin: 18px 0 8px;
+    font-size: 19px;
+    color: #302947;
+  }
+  
+  .grammar-topic-card > p {
+    font-size: 14px;
+    color: #89839b;
+    line-height: 1.6;
+    min-height: 44px;
+  }
+  
+  .grammar-card-bottom {
+    border-top: 1px solid #f0edf6;
+    margin-top: 20px;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .grammar-card-bottom span {
+    font-size: 12px;
+    color: #89839b;
+  }
+  
+  .grammar-card-bottom button {
+    background: #f1ecff;
+    color: #7556c3;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .grammar-card-bottom button:hover {
+    background: #e5dcff;
+  }
+  
+  /* ========== TOPIC DETAIL ========== */
+  
+  .grammar-detail {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .grammar-back {
+    border: none;
+    background: transparent;
+    color: #795bc5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+  
+  .grammar-detail-header {
+    margin-bottom: 28px;
+  }
+  
+  .grammar-detail-header h1 {
+    font-size: 32px;
+    margin: 14px 0 8px;
+    color: #302947;
+  }
+  
+  .grammar-detail-header p {
+    color: #89839b;
+  }
+  
+  .grammar-section {
+    background: white;
+    border: 1px solid #eeeaf6;
+    border-radius: 18px;
+    padding: 24px;
+    margin-bottom: 22px;
+  }
+  
+  .grammar-section h2 {
+    font-size: 18px;
+    margin: 0 0 16px;
+    color: #392f52;
+  }
+  
+  .grammar-section > p {
+    color: #6f6984;
+    line-height: 1.8;
+    margin: 0;
+  }
+  
+  .grammar-example {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  
+  .grammar-wrong,
+  .grammar-correct {
+    padding: 16px;
+    border-radius: 12px;
+  }
+  
+  .grammar-wrong {
+    background: #fff0f0;
+  }
+  
+  .grammar-correct {
+    background: #eef9f1;
+  }
+  
+  .grammar-wrong span {
+    color: #d16a6a;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .grammar-correct span {
+    color: #439463;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .grammar-wrong p,
+  .grammar-correct p {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: #49445b;
+  }
+  
+  .grammar-question {
+    font-size: 18px !important;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+    color: #352b4d !important;
+  }
+  
+  .grammar-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .grammar-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid #eae5f4;
+    background: white;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: left;
+    color: #514967;
+    transition: 0.2s;
+  }
+  
+  .grammar-option:hover {
+    border-color: #a991e4;
+    background: #faf8ff;
+  }
+  
+  .grammar-option.selected {
+    border: 2px solid #8b6bd2;
+    background: #f6f1ff;
+  }
+  
+  .grammar-option.answer-correct {
+    border-color: #64b57e;
+    background: #eef9f1;
+  }
+  
+  .grammar-option.answer-wrong {
+    border-color: #e38b8b;
+    background: #fff1f1;
+  }
+  
+  .grammar-option-letter {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #f0ebfa;
+    color: #7858c4;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  
+  .grammar-check-button {
+    background: #8061cf;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .grammar-check-button:hover {
+    background: #6c4fba;
+  }
+  
+  .grammar-check-button:disabled {
+    background: #c9bfdc;
+    cursor: not-allowed;
+  }
+  
+  .grammar-feedback {
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 12px;
+  }
+  
+  .grammar-feedback.correct {
+    background: #eef9f1;
+    color: #327b4c;
+  }
+  
+  .grammar-feedback.wrong {
+    background: #fff2f2;
+    color: #b55c5c;
+  }
+  
+  .grammar-feedback p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .grammar-complete-button {
+    width: 100%;
+    background: #f0eaff;
+    color: #7555c2;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  
+  .grammar-complete-button:hover {
+    background: #e5dbff;
+  }
+  
+  .grammar-complete-button:disabled {
+    background: #eef8f0;
+    color: #44915e;
+    cursor: default;
+  }
+  
+  /* Responsive */
+  
+  @media (max-width: 850px) {
+    .grammar-topic-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .grammar-heading {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .grammar-progress-card {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .grammar-page {
+      padding: 16px;
+    }
+  
+    .grammar-example,
+    .grammar-options {
+      grid-template-columns: 1fr;
+    }
+  
+    .grammar-detail-header h1 {
+      font-size: 26px;
+    }
+  
+    .grammar-section {
+      padding: 18px;
+    }
+  }
+  
